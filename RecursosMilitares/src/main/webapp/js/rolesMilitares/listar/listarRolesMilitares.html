@@ -1,3 +1,10 @@
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Roles Militares</li>
+    </ol>
 <div class="card-header">
     <i class="fas fa-list-ol"></i>
     Lista de roles militares</div>
@@ -13,7 +20,7 @@
                     </tr>
                 </thead>
                 <tbody> 
-                    <tr ng-repeat="rol in rolesMilitares | orderBy : 'idRol'">
+                    <tr ng-repeat="rol in rolesMilitares| orderBy : 'idRol'">
                         <td>{{rol.idRol}}</td>
                         <td>{{rol.nombreRol}}</td>  
                         <td>
