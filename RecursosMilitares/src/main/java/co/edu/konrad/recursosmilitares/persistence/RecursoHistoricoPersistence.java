@@ -7,7 +7,7 @@ package co.edu.konrad.recursosmilitares.persistence;
 
 /**
  *
- * @author Lenovo
+ * @author Uriel Rodríguez Vallarta
  */
 public class RecursoHistoricoPersistence {
     
