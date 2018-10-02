@@ -1,0 +1,43 @@
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Roles Militares</li>
+    </ol>
+<div class="card-header">
+    <i class="fas fa-list-ol"></i>
+    Lista de roles militares 
+</div>
+<div class="card-body">
+    <div id="tablaEstudiantes">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Nombre</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    <tr ng-repeat="rol in rolesMilitares| orderBy : 'idRol'">
+                        <td>{{rol.idRol}}</td>
+                        <td>{{rol.nombreRol}}</td>  
+                        <td>
+                            <button class="btn btn-danger" ng-click="eliminar(rol.idRol)">Eliminar</button>
+                        </td>
+                    </tr>
+                </tbody >
+                <tfoot>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Nombre</th>
+                        <th>Acciones</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="card-footer small text-muted">Actualizado: Ahora</div>
