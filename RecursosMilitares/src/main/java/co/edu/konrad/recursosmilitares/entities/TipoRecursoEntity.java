@@ -30,8 +30,7 @@ public class TipoRecursoEntity implements Serializable{
     private int id_tipo_recurso;
     
     /**
-     * Atributo nom_tipo_recurso, este es una llave foranea la cual conecta con 
-     * la tabla tipo recurso, nos permitira manejar el nombre del tipo recurso
+     * Atributo que nos permitira manejar el nombre del tipo recurso
      */    
     @Column (name = "nom_tipo_recurso", nullable = false)
     private int nom_tipo_recurso; 
