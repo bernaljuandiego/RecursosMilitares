@@ -26,4 +26,15 @@ app.config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $u
            }
        }
     });
+    
+    $stateProvider.state("404",{
+       url: '/404',
+       //donde se publica
+       views: {
+           mainView:{
+               templateUrl: '404.html'
+           }
+       }
+    });
+    
 }]);
