@@ -1,8 +1,6 @@
 var rolMilitarModule = angular.module('rolMilitarModule');
 rolMilitarModule.controller('listarRolesMilitaresCtrl', ['$scope', '$http', '$state', function ($scope, $http, $state) {
-
         $scope.rolesMilitares = new Array();
-
         $http.get('api/roles_militares').then(function (response) {
             $scope.rolesMilitares = response.data;
             $(document).ready(function () {
