@@ -1,0 +1,28 @@
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fas fa-user-plus"></i>
+        Agregar Rol Militar</div>
+    <div class="card-body">
+        <form>
+            <div class="form-group">
+                <div class="form-label-group">
+                    <input type="text" ng-model="rolMilitar.nombreRol" id="nombreRol" class="form-control" placeholder="Nombre del rol militar" required="required" autofocus="autofocus">
+                    <label for="nombreRol">Nombre del rol militar</label>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-success" ng-if="!rolMilitar.idRol" ng-click="crearRolMilitar()">Agregar +</button>    
+            <button class="btn btn-primary btn-warning" ng-if="rolMilitar.idRol" ng-click="editarRolMilitar()">Modificar</button>
+            <button class="btn btn-primary btn-danger" ui-sref="listarRoles">Cancelar</button>
+            
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
