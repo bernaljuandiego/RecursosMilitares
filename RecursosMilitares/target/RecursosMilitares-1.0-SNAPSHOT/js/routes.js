@@ -1,4 +1,3 @@
-//Llamar la aplicacion creada en app.js
 var app = angular.module("RecursosMilitares");
 
 app.config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
@@ -9,9 +8,19 @@ app.config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $u
             url: '/dashboard',
             //donde se publica
             views: {
+                sideBar: {
+                    templateUrl: './js/componentesPrincipales/sideBar/sideBar.html',
+                    controller: 'sideBarCtrl'
+                },
                 mainView: {
                     templateUrl: './js/dashboard/mostrar/dashboard.html',
                     controller: 'dashboardCtrl'
+                },
+                topBar:{
+                    templateUrl: './js/componentesPrincipales/topBar.html'
+                },
+                popUp:{
+                    templateUrl: './js/componentesPrincipales/popUp/popUp.html'
                 }
             }
         });
@@ -22,7 +31,17 @@ app.config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $u
             views: {
                 mainView: {
                     templateUrl: './js/rolesMilitares/listar/listarRolesMilitares.html',
-                    controller: 'listarRolesMilitaresCtrl',
+                    controller: 'listarRolesMilitaresCtrl'
+                },
+                sideBar: {
+                    templateUrl: './js/componentesPrincipales/sideBar/sideBar.html',
+                    controller: 'sideBarCtrl'
+                },
+                topBar:{
+                    templateUrl: './js/componentesPrincipales/topBar.html'
+                },
+                popUp:{
+                    templateUrl: './js/componentesPrincipales/popUp/popUp.html'
                 }
             }
         });
@@ -33,7 +52,16 @@ app.config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $u
             views: {
                 addView: {
                     templateUrl: './js/rolesMilitares/crearEditar/crearEditarRolesMilitares.html',
-                    controller: 'crearEditarRolMilitarCtrl',
+                    controller: 'crearEditarRolMilitarCtrl'
+                },sideBar: {
+                    templateUrl: './js/componentesPrincipales/sideBar/sideBar.html',
+                    controller: 'sideBarCtrl'
+                },
+                topBar:{
+                    templateUrl: './js/componentesPrincipales/topBar.html'
+                },
+                popUp:{
+                    templateUrl: './js/componentesPrincipales/popUp/popUp.html'
                 }
             }
         });
@@ -44,7 +72,77 @@ app.config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $u
             views: {
                 addView: {
                     templateUrl: './js/rolesMilitares/crearEditar/crearEditarRolesMilitares.html',
-                    controller: 'crearEditarRolMilitarCtrl',
+                    controller: 'crearEditarRolMilitarCtrl'
+                },sideBar: {
+                    templateUrl: './js/componentesPrincipales/sideBar/sideBar.html',
+                    controller: 'sideBarCtrl'
+                },
+                topBar:{
+                    templateUrl: './js/componentesPrincipales/topBar.html'
+                },
+                popUp:{
+                    templateUrl: './js/componentesPrincipales/popUp/popUp.html'
+                }
+            }
+        });
+        
+        $stateProvider.state("listarMilitares", {
+            url: '/listarMilitares',
+            //donde se publica
+            views: {
+                mainView: {
+                    templateUrl: './js/militares/listar/listarMilitares.html',
+                    controller: 'listarMilitaresCtrl'
+                },
+                sideBar: {
+                    templateUrl: './js/componentesPrincipales/sideBar/sideBar.html',
+                    controller: 'sideBarCtrl'
+                },
+                topBar:{
+                    templateUrl: './js/componentesPrincipales/topBar.html'
+                },
+                popUp:{
+                    templateUrl: './js/componentesPrincipales/popUp/popUp.html'
+                }
+            }
+        });
+
+        $stateProvider.state("listarMilitares.addMilitar", {
+            url: '/addMilitar',
+            //donde se publica
+            views: {
+                addView: {
+                    templateUrl: './js/militares/crearEditar/crearEditarMilitares.html',
+                    controller: 'crearEditarMilitarCtrl'
+                },sideBar: {
+                    templateUrl: './js/componentesPrincipales/sideBar/sideBar.html',
+                    controller: 'sideBarCtrl'
+                },
+                topBar:{
+                    templateUrl: './js/componentesPrincipales/topBar.html'
+                },
+                popUp:{
+                    templateUrl: './js/componentesPrincipales/popUp/popUp.html'
+                }
+            }
+        });
+
+        $stateProvider.state("listarMilitares.editMilitar", {
+            url: '/editMilitar/:militar',
+            //donde se publica
+            views: {
+                addView: {
+                    templateUrl: './js/militares/crearEditar/crearEditarMilitares.html',
+                    controller: 'crearEditarMilitarCtrl'
+                },sideBar: {
+                    templateUrl: './js/componentesPrincipales/sideBar/sideBar.html',
+                    controller: 'sideBarCtrl'
+                },
+                topBar:{
+                    templateUrl: './js/componentesPrincipales/topBar.html'
+                },
+                popUp:{
+                    templateUrl: './js/componentesPrincipales/popUp/popUp.html'
                 }
             }
         });
@@ -54,7 +152,15 @@ app.config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $u
             //donde se publica
             views: {
                 mainView: {
-                    templateUrl: '404.html'
+                    templateUrl: './js/componentesPrincipales/404.html'
+                },sideBar: {
+                    templateUrl: './js/componentesPrincipales/sideBar/sideBar.html'
+                },
+                topBar:{
+                    templateUrl: './js/componentesPrincipales/topBar.html'
+                },
+                popUp:{
+                    templateUrl: './js/componentesPrincipales/popUp/popUp.html'
                 }
             }
         });

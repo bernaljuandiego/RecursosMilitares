@@ -1,0 +1,92 @@
+<div class="card mb-3">
+    <div class="card-header">
+        <i ng-if="!militar.idMilitar" class="fas fa-user-plus"></i>
+        <a ng-if="!militar.idMilitar">Agregar Militar</a>
+        <i ng-if="militar.idMilitar" class="fas fa-user-edit"></i>
+        <a ng-if="militar.idMilitar">Modificar Militar {{militar.nombreMilitar}}</a>
+    </div>
+    <div class="card-body">
+        <form>
+
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-4">
+                        <div class="form-label-group">
+                            <input ng-model="militar.idMilitar" type="text" id="idMilitar" class="form-control" placeholder="Cedula" required="required" disabled="true">
+                            <label for="idMilitar">Cedula </label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-label-group">
+                            <input ng-model="militar.nombreMilitar" type="text" id="nombreMilitar" class="form-control" placeholder="Nombre" required="required">
+                            <label for="nombreMilitar">Nombre</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-label-group">
+                            <input ng-model="militar.apellidoMilitar" type="text" id="apellidoMilitar" class="form-control" placeholder="Apellido" required="required">
+                            <label for="apellidoMilitar">Apellido</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div class="form-label-group">
+                            <select class="custom-select" ng-model="militar.rolMilitar">
+                                <option ng-selected="militar.rolMilitar.idRol == rol.idRol" ng-repeat="rol in rolesMilitares" ng-value="rol">  
+                                    {{rol.nombreRol}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-label-group">
+                            <select class="custom-select" ng-model="militar.militarSuperior" >
+                                <option ng-selected="militar.militarSuperior.idMilitar==sup.idMilitar" ng-repeat="sup in militares" ng-value="sup">  
+                                    {{sup.rolMilitar.nombreRol}} {{sup.nombreMilitar}} {{sup.apellidoMilitar}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div class="form-label-group">
+                            <input ng-model="militar.correoMilitar" type="email" id="correoMilitar" class="form-control" placeholder="Correo" required="required">
+                            <label for="correoMilitar">Correo</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-label-group">
+                            <input ng-model="militar.telefonoMilitar" type="tel" id="telefonoMilitar" class="form-control" placeholder="Telefono" required="required">
+                            <label for="telefonoMilitar">Telefono</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div class="form-label-group">
+                            <input ng-model="militar.avatarMilitar" type="text" id="avatarMilitar" class="form-control" placeholder="Avatar" required="required" autofocus="autofocus">
+                            <label for="avatarMilitar">Avatar</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-label-group">
+                            <input ng-model="militar.nacimientoMilitar" type="datetime" required="required">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>{{militar}}</h3>
+            <button class="btn btn-primary btn-success" ng-if="!militar.idMilitar" ng-click="crearMilitar()">Agregar +</button>    
+            <button class="btn btn-primary btn-warning" ng-if="militar.idMilitar" ng-click="editarMilitar()">Modificar</button>
+            <button class="btn btn-primary btn-danger" ng-click="cancelar()">Cancelar</button>
+        </form>
+    </div>
+</div>

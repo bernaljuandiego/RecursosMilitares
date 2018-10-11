@@ -1,2 +1,1 @@
-var rolMilitarModule = angular.module("rolMilitarModule", [
-]);
+var rolMilitarModule = angular.module("rolMilitarModule", []);

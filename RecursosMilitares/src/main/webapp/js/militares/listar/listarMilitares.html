@@ -1,0 +1,66 @@
+<!-- Breadcrumbs-->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a ui-sref="dashboard">Dashboard</a>
+    </li>
+    <li class="breadcrumb-item active">Militares</li>
+</ol>
+<div ui-view="addView">   
+</div>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fas fa-clipboard-list"></i>
+        Militares                
+        <a ui-sref=".addMilitar"><button type="button" id="botonAgregar" class="btn btn-success">Agregar +</button></a>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Avatar</th>
+                        <th>CC</th>
+                        <th>Rango</th>
+                        <th>Nombre Completo</th>
+                        <th>Correo</th>
+                        <th>Telefono</th>
+                        <th>Nacimiento</th>
+                        <th>Superior</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    <tr ng-repeat="militar in militares| orderBy : 'idMilitar'">
+                        <td>{{militar.avatarMilitar}}</td>
+                        <td>{{militar.idMilitar}}</td>
+                        <td>{{militar.rolMilitar.nombreRol}}</td>
+                        <td>{{militar.nombreMilitar}} {{militar.apellidoMilitar}}</td>
+                        <td>{{militar.correoMilitar}}</td>
+                        <td>{{militar.telefonoMilitar}}</td>
+                        <td>{{militar.nacimientoMilitar}}</td>
+                        <td>{{militar.militarSuperior.rolMilitar.nombreRol}} {{militar.militarSuperior.nombreMilitar}} {{militar.militarSuperior.apellidoMilitar}}</td>
+                        <td>
+                            <button class="btn btn-danger" ng-click="eliminar(militar.idMilitar)">Eliminar</button>
+                            <button class="btn btn-warning" ui-sref="listarMilitares.editMilitar({militar:militar.idMilitar})">Actualizar</button>
+                        </td>
+                    </tr>
+                </tbody >
+                <tfoot>
+                    <tr>
+                        <th>Avatar</th>
+                        <th>CC</th>
+                        <th>Rango</th>
+                        <th>Nombre Completo</th>
+                        <th>Correo</th>
+                        <th>Telefono</th>
+                        <th>Nacimiento</th>
+                        <th>Superior</th>
+                        <th>Acciones</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted">Actualizado: {{fecha}}</div>
+</div>
+
