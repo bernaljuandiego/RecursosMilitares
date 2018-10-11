@@ -7,6 +7,7 @@ co/edu/konrad/recursosmilitares/entities/CategoriaEntity.class
 co/edu/konrad/recursosmilitares/dto/TipoRecursoDTO.class
 co/edu/konrad/recursosmilitares/logic/CategoriaLogic.class
 co/edu/konrad/recursosmilitares/dto/RecursoDTO.class
+co/edu/konrad/recursosmilitares/dto/MilitarDTO.class
 co/edu/konrad/recursosmilitares/entities/RecursoHistoricoEntity.class
 co/edu/konrad/recursosmilitares/entities/CategoriaEntity_.class
 co/edu/konrad/recursosmilitares/entities/TipoRecursoEntity.class
@@ -18,11 +19,15 @@ co/edu/konrad/recursosmilitares/dto/RolMilitarDTO.class
 co/edu/konrad/recursosmilitares/resources/RolMilitarResource.class
 co/edu/konrad/recursosmilitares/entities/TipoRecursoEntity_.class
 co/edu/konrad/recursosmilitares/logic/RecursoLogic.class
+co/edu/konrad/recursosmilitares/logic/MilitarLogic.class
 co/edu/konrad/recursosmilitares/persistence/RecursoPersistence.class
+co/edu/konrad/recursosmilitares/entities/MilitarEntity_.class
+co/edu/konrad/recursosmilitares/resources/MilitarResource.class
 co/edu/konrad/recursosmilitares/entities/RecursoEntity_.class
 co/edu/konrad/recursosmilitares/dto/CategoriaDTO.class
 co/edu/konrad/recursosmilitares/logic/RolMilitarLogic.class
 co/edu/konrad/recursosmilitares/logic/TipoRecursoLogic.class
+co/edu/konrad/recursosmilitares/persistence/MilitarPersistence.class
 co/edu/konrad/recursosmilitares/logic/RecursoHistoricoLogic.class
 co/edu/konrad/recursosmilitares/resources/ApplicationConfig.class
 co/edu/konrad/recursosmilitares/entities/RecursoEntity.class

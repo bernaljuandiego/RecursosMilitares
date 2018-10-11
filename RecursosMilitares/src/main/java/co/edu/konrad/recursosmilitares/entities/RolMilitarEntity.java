@@ -22,6 +22,9 @@ public class RolMilitarEntity implements Serializable {
     //serial de la version de la entity
     private final static long serialVersionUID = 1L;
 
+    public RolMilitarEntity() {
+    }
+
     //Codigo del rol - llave primaria
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

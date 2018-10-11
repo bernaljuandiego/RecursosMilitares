@@ -1,3 +1,1 @@
-var dashboardModule = angular.module("dashboardModule", [
-    
-]);
+var dashboardModule = angular.module("dashboardModule", []);

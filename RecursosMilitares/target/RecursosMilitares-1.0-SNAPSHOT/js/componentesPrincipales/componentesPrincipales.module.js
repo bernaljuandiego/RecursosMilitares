@@ -1,0 +1,1 @@
+var componentesPrincipalesModule = angular.module("componentesPrincipalesModule", []);

@@ -1,0 +1,1 @@
+var militarModule = angular.module("militarModule", []);
