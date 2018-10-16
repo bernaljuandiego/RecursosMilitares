@@ -18,14 +18,14 @@ import javax.persistence.Query;
  */
 @Stateless
 public class TipoRecursoPersistence {
-@PersistenceContext(unitName = "RecursoMilitarPU")
+@PersistenceContext(unitName = "RecursosMilitaresPU")
     private EntityManager entityManager;
     /**
      * Metodo que lista todos los elementos que se encuentran en la tabla Tipo recurso
      * @return lista de tipo programa
      */
     public List<TipoRecursoEntity> findAll(){
-        Query todos = entityManager.createQuery("select tr from TipoRecursoEntity tr");
+        Query todos = entityManager.createQuery("select tr from TipoRecurso tr");
         return todos.getResultList();
     }
     /**

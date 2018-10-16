@@ -18,14 +18,14 @@ import javax.persistence.Query;
  */
 @Stateless
 public class CategoriaPersistence {
-@PersistenceContext(unitName = "RecursoMilitarPU")
+@PersistenceContext(unitName = "RecursosMilitaresPU")
     private EntityManager entityManager;
     /**
      * Metodo que lista todos los elementos que se encuentran en la tabla Categoria
      * @return lista de categoria
      */
     public List<CategoriaEntity> findAll(){
-        Query todos = entityManager.createQuery("select c from CategoriaEntity c");
+        Query todos = entityManager.createQuery("select c from Categoria c");
         return todos.getResultList();
     }
     /**
