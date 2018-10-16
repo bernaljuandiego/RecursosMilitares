@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/juandiegobernalpedroza/NetBeansProjects/RecursosMilitares/RecursosMilitares/src/main/java/co/edu/konrad/recursosmilitares/entities/CategoriaEntity.java
 /Users/juandiegobernalpedroza/NetBeansProjects/RecursosMilitares/RecursosMilitares/src/main/java/co/edu/konrad/recursosmilitares/persistence/RolMilitarPersistence.java
 /Users/juandiegobernalpedroza/NetBeansProjects/RecursosMilitares/RecursosMilitares/src/main/java/co/edu/konrad/recursosmilitares/logic/RecursoHistoricoLogic.java
@@ -25,3 +26,29 @@
 /Users/juandiegobernalpedroza/NetBeansProjects/RecursosMilitares/RecursosMilitares/src/main/java/co/edu/konrad/recursosmilitares/dto/CategoriaDTO.java
 /Users/juandiegobernalpedroza/NetBeansProjects/RecursosMilitares/RecursosMilitares/src/main/java/co/edu/konrad/recursosmilitares/entities/RolMilitarEntity.java
 /Users/juandiegobernalpedroza/NetBeansProjects/RecursosMilitares/RecursosMilitares/src/main/java/co/edu/konrad/recursosmilitares/logic/RecursoLogic.java
+=======
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\dto\CategoriaDTO.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\logic\CategoriaLogic.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\dto\RecursoHistoricoDTO.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\entities\CategoriaEntity.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\logic\RolMilitarLogic.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\dto\TipoRecursoDTO.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\persistence\CategoriaPersistence.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\persistence\RecursoPersistence.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\logic\RecursoLogic.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\entities\RecursoEntity.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\dto\drgfvc.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\dto\RecursoDTO.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\entities\TipoRecursoEntity.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\resources\RolMilitarResource.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\logic\RecursoHistoricoLogic.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\entities\RecursoHistoricoEntity.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\entities\RolMilitarEntity.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\entities\MilitarEntity.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\persistence\RolMilitarPersistence.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\persistence\RecursoHistoricoPersistence.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\persistence\TipoRecursoPersistence.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\dto\RolMilitarDTO.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\logic\TipoRecursoLogic.java
+C:\Users\Lenovo\Documents\GitHub\RecursosMilitares\RecursosMilitares\RecursosMilitares\src\main\java\co\edu\konrad\recursosmilitares\resources\ApplicationConfig.java
+>>>>>>> uriel
