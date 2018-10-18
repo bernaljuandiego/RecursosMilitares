@@ -33,7 +33,7 @@ public class TipoRecursoEntity implements Serializable{
      * Atributo que nos permitira manejar el nombre del tipo recurso
      */    
     @Column (name = "nom_tipo_recurso", nullable = false)
-    private int nom_tipo_recurso; 
+    private String nom_tipo_recurso; 
     
     /**
      * Constructor por defecto
@@ -53,11 +53,11 @@ public class TipoRecursoEntity implements Serializable{
         this.id_tipo_recurso = id_tipo_recurso;
     }
 
-    public int getNom_tipo_recurso() {
+    public String getNom_tipo_recurso() {
         return nom_tipo_recurso;
     }
 
-    public void setNom_tipo_recurso(int nom_tipo_recurso) {
+    public void setNom_tipo_recurso(String nom_tipo_recurso) {
         this.nom_tipo_recurso = nom_tipo_recurso;
     }
    

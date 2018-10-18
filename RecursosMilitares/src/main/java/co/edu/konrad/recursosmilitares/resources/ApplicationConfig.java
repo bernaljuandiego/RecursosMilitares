@@ -24,7 +24,14 @@ public class ApplicationConfig extends Application {
     }
     
     private void addRestResourceClasses(Set<Class<?>> resources) {
+<<<<<<< HEAD
         resources.add(co.edu.konrad.recursosmilitares.resources.MilitarResource.class);
+=======
+        resources.add(co.edu.konrad.recursosmilitares.resources.CategoriaResource.class);
+        resources.add(co.edu.konrad.recursosmilitares.resources.RecursoHistoricoResource.class);
+        resources.add(co.edu.konrad.recursosmilitares.resources.RecursoResource.class);
+>>>>>>> uriel
         resources.add(co.edu.konrad.recursosmilitares.resources.RolMilitarResource.class);
+        resources.add(co.edu.konrad.recursosmilitares.resources.TipoRecursoResource.class);
     }   
 }
