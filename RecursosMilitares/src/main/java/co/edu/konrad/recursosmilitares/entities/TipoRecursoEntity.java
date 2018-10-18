@@ -27,6 +27,8 @@ public class TipoRecursoEntity implements Serializable{
      */
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    
+    @Column (name = "id_tipo_recurso", nullable = false)
     private int id_tipo_recurso;
     
     /**
