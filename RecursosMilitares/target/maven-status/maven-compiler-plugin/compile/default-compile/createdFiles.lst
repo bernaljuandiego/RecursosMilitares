@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> master
+<<<<<<< HEAD
 co/edu/konrad/recursosmilitares/persistence/RolMilitarPersistence.class
 co/edu/konrad/recursosmilitares/entities/RolMilitarEntity.class
 co/edu/konrad/recursosmilitares/persistence/CategoriaPersistence.class
@@ -34,9 +37,14 @@ co/edu/konrad/recursosmilitares/logic/RecursoHistoricoLogic.class
 co/edu/konrad/recursosmilitares/resources/ApplicationConfig.class
 co/edu/konrad/recursosmilitares/entities/RecursoEntity.class
 =======
+<<<<<<< HEAD
 =======
 co\edu\konrad\recursosmilitares\entities\TipoRecursoEntity.class
 >>>>>>> uriel
+=======
+<<<<<<< HEAD
+co\edu\konrad\recursosmilitares\entities\TipoRecursoEntity.class
+>>>>>>> master
 co\edu\konrad\recursosmilitares\entities\MilitarEntity.class
 co\edu\konrad\recursosmilitares\dto\CategoriaDTO.class
 co\edu\konrad\recursosmilitares\entities\CategoriaEntity_.class
@@ -62,10 +70,26 @@ co\edu\konrad\recursosmilitares\logic\RecursoHistoricoLogic.class
 co\edu\konrad\recursosmilitares\dto\TipoRecursoDTO.class
 co\edu\konrad\recursosmilitares\entities\RolMilitarEntity.class
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> uriel
 =======
+=======
+>>>>>>> master
 co\edu\konrad\recursosmilitares\persistence\RecursoHistoricoPersistence.class
 co\edu\konrad\recursosmilitares\persistence\TipoRecursoPersistence.class
 co\edu\konrad\recursosmilitares\dto\RecursoHistoricoDTO.class
 co\edu\konrad\recursosmilitares\entities\CategoriaEntity.class
+<<<<<<< HEAD
+=======
+=======
+co\edu\konrad\recursosmilitares\entities\MilitarEntity.class
+co\edu\konrad\recursosmilitares\persistence\RolMilitarPersistence.class
+co\edu\konrad\recursosmilitares\logic\RolMilitarLogic.class
+co\edu\konrad\recursosmilitares\entities\RolMilitarEntity_.class
+co\edu\konrad\recursosmilitares\resources\RolMilitarResource.class
+co\edu\konrad\recursosmilitares\resources\ApplicationConfig.class
+co\edu\konrad\recursosmilitares\dto\RolMilitarDTO.class
+co\edu\konrad\recursosmilitares\entities\RolMilitarEntity.class
+>>>>>>> master
+>>>>>>> master
 >>>>>>> uriel
