@@ -26,7 +26,7 @@ public class RecursoLogic {
      * Obtener todos los recursos
      * @return recursos
      */
-    public List<RecursoEntity> getRecurso(){
+    public List<RecursoEntity> getRecursos(){
       List<RecursoEntity> recursos = recursoPersistance.findAll();
       return recursos;
     }

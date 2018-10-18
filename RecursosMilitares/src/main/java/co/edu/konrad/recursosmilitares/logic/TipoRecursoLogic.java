@@ -26,7 +26,7 @@ public class TipoRecursoLogic {
      * Obtener todos los tipos recursos
      * @return tiposRecursos
      */
-    public List<TipoRecursoEntity> getTipoRecurso(){
+    public List<TipoRecursoEntity> getTiposRecursos(){
       List<TipoRecursoEntity> tiposRecursos = tipoRecursoPersistance.findAll();
       return tiposRecursos;
     }

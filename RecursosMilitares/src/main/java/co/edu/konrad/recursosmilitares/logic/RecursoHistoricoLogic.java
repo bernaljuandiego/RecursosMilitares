@@ -26,7 +26,7 @@ public class RecursoHistoricoLogic {
      * Obtener todos los recursos historicos
      * @return recursosHistoricos
      */
-    public List<RecursoHistoricoEntity> getRecursoHistorico(){
+    public List<RecursoHistoricoEntity> getRecursosHistoricos(){
       List<RecursoHistoricoEntity> recursosHistoricos = recursoHistoricoPersistance.findAll();
       return recursosHistoricos;
     }

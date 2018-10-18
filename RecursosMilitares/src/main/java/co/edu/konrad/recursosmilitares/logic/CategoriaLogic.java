@@ -26,7 +26,7 @@ public class CategoriaLogic {
      * Obtener todos las categorias
      * @return categorias
      */
-    public List<CategoriaEntity> getCategoria(){
+    public List<CategoriaEntity> getCategorias(){
       List<CategoriaEntity> categorias = categoriaPersistance.findAll();
       return categorias;
     }
