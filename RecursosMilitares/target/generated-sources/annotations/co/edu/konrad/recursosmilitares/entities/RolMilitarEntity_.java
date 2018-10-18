@@ -6,6 +6,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
@@ -23,6 +24,9 @@ import javax.persistence.metamodel.StaticMetamodel;
 >>>>>>> uriel
 =======
 >>>>>>> master
+=======
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-10-18T17:27:05")
+>>>>>>> uriel
 @StaticMetamodel(RolMilitarEntity.class)
 public class RolMilitarEntity_ { 
 

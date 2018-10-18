@@ -6,6 +6,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 <<<<<<< HEAD
@@ -23,10 +24,13 @@ import javax.persistence.metamodel.StaticMetamodel;
 >>>>>>> uriel
 =======
 >>>>>>> master
+=======
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-10-18T17:27:05")
+>>>>>>> uriel
 @StaticMetamodel(CategoriaEntity.class)
 public class CategoriaEntity_ { 
 
     public static volatile SingularAttribute<CategoriaEntity, Integer> id_categoria;
-    public static volatile SingularAttribute<CategoriaEntity, Integer> nom_categoria;
+    public static volatile SingularAttribute<CategoriaEntity, String> nom_categoria;
 
 }

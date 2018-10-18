@@ -54,10 +54,11 @@ co\edu\konrad\recursosmilitares\entities\TipoRecursoEntity_.class
 co\edu\konrad\recursosmilitares\logic\TipoRecursoLogic.class
 co\edu\konrad\recursosmilitares\persistence\RecursoPersistence.class
 co\edu\konrad\recursosmilitares\entities\RecursoEntity_.class
-co\edu\konrad\recursosmilitares\dto\drgfvc.class
+co\edu\konrad\recursosmilitares\resources\CategoriaResource.class
 co\edu\konrad\recursosmilitares\logic\RecursoLogic.class
 co\edu\konrad\recursosmilitares\dto\RecursoDTO.class
 co\edu\konrad\recursosmilitares\entities\RolMilitarEntity_.class
+co\edu\konrad\recursosmilitares\resources\RecursoHistoricoResource.class
 co\edu\konrad\recursosmilitares\entities\RecursoHistoricoEntity_.class
 co\edu\konrad\recursosmilitares\resources\RolMilitarResource.class
 co\edu\konrad\recursosmilitares\persistence\CategoriaPersistence.class
@@ -71,11 +72,16 @@ co\edu\konrad\recursosmilitares\dto\TipoRecursoDTO.class
 co\edu\konrad\recursosmilitares\entities\RolMilitarEntity.class
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> uriel
 =======
 =======
 >>>>>>> master
+=======
+co\edu\konrad\recursosmilitares\resources\RecursoResource.class
+>>>>>>> uriel
 co\edu\konrad\recursosmilitares\persistence\RecursoHistoricoPersistence.class
+co\edu\konrad\recursosmilitares\resources\TipoRecursoResource.class
 co\edu\konrad\recursosmilitares\persistence\TipoRecursoPersistence.class
 co\edu\konrad\recursosmilitares\dto\RecursoHistoricoDTO.class
 co\edu\konrad\recursosmilitares\entities\CategoriaEntity.class

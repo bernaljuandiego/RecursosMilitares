@@ -27,6 +27,8 @@ public class CategoriaEntity implements Serializable{
      */
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    
+    @Column (name = "id_categoria", nullable = false)
     private int id_categoria;
     
     /**
