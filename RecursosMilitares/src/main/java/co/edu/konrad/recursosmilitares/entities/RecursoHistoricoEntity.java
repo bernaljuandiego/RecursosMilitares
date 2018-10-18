@@ -33,19 +33,19 @@ public class RecursoHistoricoEntity implements Serializable{
      * Atributo que maneja la fecha de adquisicion del recurso
      */
     @Column(name = "fecha_adquisicion", nullable = false)
-    private int fecha_adquisicion;
+    private String fecha_adquisicion;
     
     /**
      * Atributo que maneja el estado del recurso
      */
     @Column(name = "estado", nullable = false)
-    private int estado;
+    private String estado;
     
     /**
      * Atributo que maneja el estado de la ubicación del recurso
      */
     @Column(name = "ubicacion", nullable = false)
-    private int ubicacion;
+    private String ubicacion;
     
     /**
      * Atributo militar_remitente_id, está es una llave foranea la cual conecta con 
@@ -85,27 +85,27 @@ public class RecursoHistoricoEntity implements Serializable{
         this.id_recurso_historico = id_recurso_historico;
     }
 
-    public int getFecha_adquisicion() {
+    public String getFecha_adquisicion() {
         return fecha_adquisicion;
     }
 
-    public void setFecha_adquisicion(int fecha_adquisicion) {
+    public void setFecha_adquisicion(String fecha_adquisicion) {
         this.fecha_adquisicion = fecha_adquisicion;
     }
 
-    public int getEstado() {
+    public String getEstado() {
         return estado;
     }
 
-    public void setEstado(int estado) {
+    public void setEstado(String estado) {
         this.estado = estado;
     }
 
-    public int getUbicacion() {
+    public String getUbicacion() {
         return ubicacion;
     }
 
-    public void setUbicacion(int ubicacion) {
+    public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
     }
 

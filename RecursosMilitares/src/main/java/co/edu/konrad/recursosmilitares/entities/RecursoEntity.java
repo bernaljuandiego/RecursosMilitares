@@ -33,7 +33,7 @@ public class RecursoEntity implements Serializable{
      * Atributo que maneja nombre del recurso
      */
     @Column(name = "nom_recurso", nullable = false)
-    private int nom_recurso;
+    private String nom_recurso;
     
     /**
      * Atributo que maneja la cantidad del recurso
@@ -45,7 +45,7 @@ public class RecursoEntity implements Serializable{
      * Atributo que maneja la descripción del recurso
      */
     @Column(name = "descripcion", nullable = false)
-    private int descripcion;
+    private String descripcion;
     
     /**
      * Atributo que maneja el numero serial del recurso
@@ -57,7 +57,7 @@ public class RecursoEntity implements Serializable{
      * Atributo que maneja el estado del recurso
      */
     @Column(name = "estado", nullable = false)
-    private int estado;
+    private String estado;
     
     /**
      * Atributo tipo_recurso_id, está es una llave foranea la cual conecta con 
@@ -90,11 +90,11 @@ public class RecursoEntity implements Serializable{
         this.id_recurso = id_recurso;
     }
 
-    public int getNom_recurso() {
+    public String getNom_recurso() {
         return nom_recurso;
     }
 
-    public void setNom_recurso(int nom_recurso) {
+    public void setNom_recurso(String nom_recurso) {
         this.nom_recurso = nom_recurso;
     }
 
@@ -106,11 +106,11 @@ public class RecursoEntity implements Serializable{
         this.cantidad = cantidad;
     }
 
-    public int getDescripcion() {
+    public String getDescripcion() {
         return descripcion;
     }
 
-    public void setDescripcion(int descripcion) {
+    public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
 
@@ -122,11 +122,11 @@ public class RecursoEntity implements Serializable{
         this.serial = serial;
     }
 
-    public int getEstado() {
+    public String getEstado() {
         return estado;
     }
 
-    public void setEstado(int estado) {
+    public void setEstado(String estado) {
         this.estado = estado;
     }
 
@@ -145,5 +145,4 @@ public class RecursoEntity implements Serializable{
     public void setCategoria_id_categoria(int categoria_id_categoria) {
         this.categoria_id_categoria = categoria_id_categoria;
     }
-    
 }//clase
