@@ -34,7 +34,7 @@ public class CategoriaEntity implements Serializable{
      * la tabla Categoria, nos permitira manejar el nombre de la categoria
      */    
     @Column (name = "nom_categoria", nullable = false)
-    private int nom_categoria; 
+    private String nom_categoria; 
     
     /**
      * Constructor por defecto
@@ -53,11 +53,11 @@ public class CategoriaEntity implements Serializable{
         this.id_categoria = id_categoria;
     }
 
-    public int getNom_categoria() {
+    public String getNom_categoria() {
         return nom_categoria;
     }
 
-    public void setNom_categoria(int nom_categoria) {
+    public void setNom_categoria(String nom_categoria) {
         this.nom_categoria = nom_categoria;
     }
    
